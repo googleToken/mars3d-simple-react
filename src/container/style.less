@@ -1,0 +1,55 @@
+.box{
+    height:100%;
+    overflow:hidden;
+    /** max-width:1920px;**/
+    margin:0 auto;
+
+    .bottom{
+        height:100%;
+        .nav{
+            height:100%;
+            width:15vw;
+            float:left;
+        }
+        .container{
+            height:100%;
+            float:right;
+            width:calc(~"100%");
+            overflow:hidden;
+            position: relative;
+            .container-map{
+                position: absolute;
+                height: 100%;
+                width: 100%;            
+                left:0;
+                /*right:0;*/
+                top:0;
+                bottom:0;
+                margin:auto;
+                z-index:100;
+            }
+            .containerChildren{
+                position: absolute;
+                left:15.5vw;
+                right:0;
+                top:0;
+                bottom:0;
+                margin:auto;
+                z-index:100;
+            }
+        }
+    }
+
+    .btnss{
+        display:none;
+    }
+
+    .focus{
+        z-index: 101!important;
+        .btnss{
+            display:block;
+        }
+    }
+}
+
+

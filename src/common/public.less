@@ -1,0 +1,247 @@
+/**
+ * 设置浏览器默认样式
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+ul {
+  margin-bottom: 0 !important;
+  list-style: none
+}
+
+a,
+i {
+  font-style: normal;
+  text-decoration: none !important;
+}
+
+/**
+ * 常用类
+ */
+
+.clearfix:after {
+  display: table;
+  content: '';
+  clear: both;
+}
+
+.none {
+  display: none;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+/**
+ * 菜单下的直接子页面
+ */
+
+.itemContainer {
+  height: 100%;
+}
+
+.itemBody {
+  height: 100%;
+  padding: 15px;
+}
+
+/**
+ * 传统流程和gis切换
+ */
+.down-showgis {
+  z-index: 0 !important;
+}
+
+/**
+ * 面包屑导航
+ */
+
+.breadcrumb {
+  margin-bottom: 15px;
+  padding: 10px 0;
+  padding-left: 15px;
+  background: #fff;
+}
+
+/**
+ * 倍率缩放和历史水位对话框
+ */
+
+.modalBox .ant-input-number {
+  width: 100%;
+}
+
+.historicalWaterLevelModal .ant-calendar-picker {
+  width: 100% !important;
+}
+
+/*
+ * 面包屑的样式
+ */
+.tool-group {
+  width: 100%;
+  height: 42px;
+  overflow: hidden;
+  background: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  line-height: 42px;
+  padding: 0 10px;
+  .crumb {
+    position: relative;
+    float: left;
+    height: 42px;
+    line-height: 42px;
+    font-size: 14px;
+    color: #527ac3;
+    font-weight: 600;
+    .crumb-item {
+      float: left;
+      margin-right: 10px;
+      text-align: center;
+      height: inherit;
+      width: 120px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      background: rgba(86, 123, 193, 0.85);
+      color: #fff;
+      box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.294);
+      a {
+        display: block;
+        height: 100%;
+        width: 100%;
+        color: inherit;
+      }
+    }
+    .crumb-item:last-child {
+      margin: 0;
+    }
+    .crumb-item.active {
+      background: rgba(255, 255, 255, 0.9);
+      color: #6898eb;
+    }
+  }
+  .tool-list {
+    overflow: hidden;
+    text-align: center;
+    text-align: -webkit-center;
+  }
+  .tool-btn {
+    float: right;
+    li {
+      float: left;
+      margin-left: 10px;
+    }
+    li:first-child {
+      margin: 0;
+    }
+  }
+}
+
+/*
+ * 页面结构的样式
+ */
+
+.ant-spin-nested-loading {
+  height: 100%;
+  .ant-spin-container {
+    height: 100%;
+  }
+}
+
+.ant-spin-container .moduleMask {
+  height: calc(~"100% - 42px");
+  position: relative;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.294);
+  .boxLeft {
+    height: 100%;
+    margin-right: 200px;
+    padding: 15px;
+    .moduleTop {
+      height: 100%;
+      width: 100%;
+      border: 1px solid #108ee9;
+      border-radius: 3px;
+      overflow: hidden;
+    }
+  }
+  .boxRight {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 215px;
+    height: 100%;
+    padding: 15px;
+    .treeBody {
+      overflow-y: auto;
+      height: 100%;
+      border: 1px solid #108ee9;
+      border-radius: 3px;
+      &::-webkit-scrollbar {
+        width: 12px;
+        background-color: #F5F5F5;
+      }
+      &::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+        background-color: #F5F5F5;
+      }
+      &::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+        background-color: #555;
+      }
+    }
+  }
+}
+
+/*
+* 修改antd默认样式
+*/
+.ant-tabs-vertical > .ant-tabs-bar .ant-tabs-tab {
+  padding: 0 10px 8px !important;
+  margin-bottom: 30px !important;
+}
+
+.ant-tabs-vertical.ant-tabs-left > .ant-tabs-content {
+  padding-left: 15px !important;
+}
+
+.ant-modal-body, .ant-modal-footer {
+  padding: 15px !important;
+}
+
+.ant-input {
+  background-color: transparent !important;
+  line-height: 32px !important;
+}
