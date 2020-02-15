@@ -1,7 +1,7 @@
 {
   "name": "mars3d-simple-react",
   "version": "2.0.0",
-  "description": " Mars3D项目模版-React版",
+  "description": " Mars3D最简项目模版-React版",
   "main": "index.js",
   "keywords": [
     "marsgis",
@@ -61,7 +61,7 @@
   },
   "author": {
     "name": "火星科技",
-    "url": "https://www.marsgis.cn"
+    "url": "http://www.marsgis.cn"
   },
   "license": "ISC",
   "homepage": "https://github.com/marsgis/mars3d-simple-react"

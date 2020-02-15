@@ -14,7 +14,7 @@ export function getMapConfig(){
 
 
 export function getPoint(){
-	const url = 'data/point.json';
+	const url = 'http://data.marsgis.cn/file/apidemo/qiye/point.json';
 	const data = '';
 	return axios.get(url, {
 		params: data
