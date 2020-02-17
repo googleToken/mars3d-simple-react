@@ -55,6 +55,10 @@
     "webpack-cli": "^3.3.6",
     "webpack-dev-server": "^3.7.2"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marsgis/mars3d-simple-react.git"
+  },
   "bugs": {
     "url": "https://github.com/marsgis/mars3d-simple-react/issues",
     "email": "wh@marsgis.cn"

@@ -43,9 +43,9 @@
  此脚手架中类库和widgets不保证是最新版本，
  请您自行拷贝"基础项目"的 config、img、lib和widgets目录覆盖至当前项目的public目录下
 
-### 与其他脚手架的区别
-1. 与 mars3d-react-cli区别（当前未开源）：
-  lib包的引入方式不同，mars3d-react-cli是npm安装import方式，当前是head静态资源引入
+### 与其他脚手架的区别 
+1. 与 [mars3d-react-cli](https://github.com/marsgis/mars3d-react-cli)区别：
+  lib包的引入方式不同，当前是head静态资源引入，mars3d-react-cli是npm安装import引入方式。
 
 2. 与 [mars3d-simple-react-widget](https://github.com/marsgis/mars3d-simple-react-widget)区别：
   比其少了widget模块部分，其他没区别
